@@ -1,6 +1,6 @@
 # Runtime State
 
-Runtime state stores current system truth.
+Runtime state stores current local runtime status. It must not be treated as Personal OS current truth.
 
 Examples:
 

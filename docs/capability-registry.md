@@ -4,7 +4,7 @@
 
 The Capability Registry is the canonical machine-readable answer to:
 
-> What can Personal OS Next do?
+> What can Fox do?
 
 ## Canonical source
 

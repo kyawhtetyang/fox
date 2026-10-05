@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1",
   "os": {
-    "id": "personal-os-next",
-    "name": "Personal OS Next"
+    "id": "fox",
+    "name": "Fox Runtime Kernel"
   },
   "version_file": "VERSION",
   "architecture": {

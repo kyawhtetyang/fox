@@ -1,4 +1,4 @@
-"""Deterministic context assembly for Personal OS Next."""
+"""Deterministic context assembly for Fox."""
 from runtime.context.models import Context, ContextRequest
 from runtime.context.sources import DEFAULT_SOURCES
 

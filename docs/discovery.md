@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Discovery provides one canonical entry point for an interface, AI model, or runtime client to understand Personal OS Next.
+Discovery provides one canonical entry point for an interface, AI model, or runtime client to understand Fox.
 
 ## Entry points
 

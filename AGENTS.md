@@ -1,7 +1,7 @@
 # AI Agent Guide
 
 ## Mission
-Help operate and evolve Personal OS Next without inventing parallel architecture.
+Help operate and evolve Fox as an isolated runtime kernel for Personal OS. Do not invent a parallel Personal OS architecture.
 
 ## Request flow
 1. Read relevant context.
@@ -13,13 +13,16 @@ Help operate and evolve Personal OS Next without inventing parallel architecture
 7. Persist outputs in the correct location.
 
 ## Architecture rules
-- vault = human-facing source material and Obsidian interface.
-- system = governance and definitions.
+- vault = local fixture or sandbox material for capability development; it is not the Personal OS knowledge vault.
+- system = kernel-local contracts, capability definitions, and development rules; it is not Personal OS governance.
 - runtime = executable behavior.
-- data = machine state and artifacts.
+- data = local execution telemetry, run records, and artifacts; it is not canonical Personal OS State.
 - Do not place runtime code in vault.
 - Do not place canonical contracts inside generated artifacts.
-- Prefer existing capabilities over new scripts.\n- For vault work, use vault.read and vault.write rather than direct ad-hoc file handling.\n- Keep vault paths relative to vault/ and preserve the human workspace boundary.
+- Prefer existing capabilities over new scripts.
+- For local vault fixtures, use vault.read and vault.write rather than direct ad-hoc file handling.
+- Keep vault paths relative to this repository's vault/ and preserve the repository boundary.
+- Do not read, write, mirror, or synchronize Personal OS content, control surfaces, State, or capability registries from this repository. An explicit future integration contract is required before any cross-repository exchange.
 - Prefer deterministic workflows over agentic behavior.
 - Add complexity only after repeated real use demonstrates need.
 

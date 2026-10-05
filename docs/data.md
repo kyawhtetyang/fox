@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The data layer preserves machine-facing operational truth.
+The data layer preserves local machine-facing execution telemetry. It is not a source of Personal OS semantic truth or current State.
 
 ## Structure
 

@@ -1,4 +1,4 @@
-"""Capability registry access for Personal OS Next."""
+"""Capability registry access for Fox."""
 from __future__ import annotations
 
 import json

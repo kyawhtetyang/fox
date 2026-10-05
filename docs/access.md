@@ -1,6 +1,6 @@
 # Access Layer
 
-Personal OS Next exposes stable system behavior through simple access patterns.
+Fox exposes stable system behavior through simple access patterns.
 
 ## Canonical execution
 

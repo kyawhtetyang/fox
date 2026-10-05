@@ -1,6 +1,6 @@
 # Context Layer
 
-Personal OS Next v0.3.0 introduces a provider-independent Context Layer.
+Fox v0.3.0 introduces a provider-independent Context Layer.
 
 Context selects and assembles information relevant to a request. It is not a prompt, model integration, or knowledge store.
 

@@ -1,4 +1,4 @@
-"""Central execution layer for Personal OS Next."""
+"""Central execution layer for Fox."""
 from .engine import ExecutionEngine
 from .models import ExecutionContext, ExecutionRequest
 

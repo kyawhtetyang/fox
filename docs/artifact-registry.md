@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The Artifact Registry is the canonical index of files produced by Personal OS Next.
+The Artifact Registry is the canonical index of files produced by Fox.
 
 A filesystem path tells the OS where a file is.
 

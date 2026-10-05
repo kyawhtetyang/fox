@@ -1,4 +1,4 @@
-"""Self-discovery support for Personal OS Next."""
+"""Self-discovery support for Fox."""
 from __future__ import annotations
 
 import json

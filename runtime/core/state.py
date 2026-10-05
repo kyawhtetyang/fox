@@ -1,4 +1,4 @@
-"""Small persistent state primitive for Personal OS Next."""
+"""Small persistent state primitive for Fox."""
 from __future__ import annotations
 
 import json

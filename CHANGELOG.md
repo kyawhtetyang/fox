@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to Personal OS Next are documented here.
+All notable changes to Fox are documented here.
 
 ## [0.6.0] - 2026-09-08
 
@@ -62,7 +62,7 @@ All notable changes to Personal OS Next are documented here.
 ## [0.1.0] - 2026-09-07
 
 ### Added
-- Canonical Personal OS Next architecture.
+- Canonical Fox architecture.
 - Governance principles and system boundaries.
 - Python runtime package and canonical CLI.
 - Runtime health checks.

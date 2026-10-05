@@ -1,4 +1,4 @@
-"""Canonical execution result model for Personal OS Next."""
+"""Canonical execution result model for Fox."""
 from __future__ import annotations
 
 

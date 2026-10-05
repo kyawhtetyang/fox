@@ -9,12 +9,12 @@ from runtime.core.discovery import discover, load_manifest
 class DiscoveryTests(unittest.TestCase):
     def test_loads_manifest(self):
         manifest = load_manifest()
-        self.assertEqual(manifest["os"]["id"], "personal-os-next")
+        self.assertEqual(manifest["os"]["id"], "fox")
 
     def test_discover_returns_os_information(self):
         result = discover()
         self.assertEqual(result["status"], "success")
-        self.assertEqual(result["os"]["name"], "Personal OS Next")
+        self.assertEqual(result["os"]["name"], "Fox Runtime Kernel")
         self.assertEqual(result["capabilities"][0]["id"], "media.save")
         self.assertEqual(result["entrypoints"]["cli"], "python -m runtime")
 

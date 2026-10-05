@@ -1,4 +1,4 @@
-"""Artifact registry support for Personal OS Next."""
+"""Artifact registry support for Fox."""
 from __future__ import annotations
 
 import json

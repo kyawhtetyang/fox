@@ -1,6 +1,8 @@
-# Personal OS Next
+# Fox
 
-Personal OS Next is a capability-first, headless Personal Operating System.
+Fox is an isolated, capability-first runtime kernel for Personal OS. Personal OS remains the canonical human-and-AI operating system.
+
+It owns only its local runtime behavior, contracts, test fixtures, and execution telemetry. It does not own Personal OS knowledge, governance, current State, or automation capability discovery.
 
 ## Core flow
 
@@ -13,10 +15,10 @@ Human / AI / CLI
 
 ## Architecture
 
-- vault/ — Human workspace, primarily Obsidian
-- system/ — Rules, contracts, policies and capability definitions
+- vault/ — Local capability fixtures and sandbox material
+- system/ — Kernel-local contracts and capability definitions
 - runtime/ — Execution implementations and canonical runtime behavior
-- data/ — State, artifacts and run records
+- data/ — Local runtime status, artifacts and run records
 - ops/ — Maintenance
 - tests/ — Quality
 - docs/ — Architecture and documentation
@@ -34,6 +36,6 @@ python -m runtime execute media.save \
   --options '{"mode":"audio"}'
 ```
 
-Vault access is Markdown-first through canonical vault.read and vault.write capabilities.\n\nHuman-friendly capability commands remain available as convenience adapters.
+Local vault-fixture access is Markdown-first through `vault.read` and `vault.write`. Human-friendly capability commands remain available as convenience adapters.
 
 Status: v0.6.0 Vault Access Foundation.

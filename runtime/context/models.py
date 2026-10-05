@@ -1,4 +1,4 @@
-"""Canonical context models for Personal OS Next."""
+"""Canonical context models for Fox."""
 from __future__ import annotations
 from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone

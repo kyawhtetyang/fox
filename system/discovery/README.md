@@ -1,6 +1,6 @@
 # Discovery
 
-Discovery contains the canonical machine-readable entry point for understanding Personal OS Next.
+Discovery contains the canonical machine-readable entry point for understanding Fox.
 
 Start with:
 
